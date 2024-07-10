@@ -24,6 +24,38 @@ a {
 }
 
 /* common CSS ends */
+
+.heading {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading-text {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.heading input {
+    display: inline-block;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 17px 24px;
+    cursor: pointer;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 .banner {
     width: 99.9%;
     min-height: 652px;
@@ -84,7 +116,7 @@ a {
     height: 1233px;
     margin: 0 auto;
     padding: 80px 97px;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
     /* padding: 0px 47px 48px; */
 }
 
@@ -380,7 +412,7 @@ a {
     text-align: center;
 }
 
-.icons img {
+.icons a img {
     margin-right: 24px;
 }
 
