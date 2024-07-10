@@ -16,7 +16,8 @@ body {
     font-weight: 800;
     text-align: center;
 }
-a{
+
+a {
     font-weight: bold;
     color: black;
     /* letter-spacing: 0%; */
@@ -246,3 +247,29 @@ a{
 }
 
 /* current target css ends */
+
+.container4 {
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+}
+
+.container4-content {
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.container4-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+
+/* Next target section ends */
